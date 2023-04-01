@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.header-component {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Users {
+  margin-left: 60px;
+  margin-top: 7px;
+}
+
+.countTweets {
+  font-weight: 200;
+}
+
+/*momxmareblis caveris foto profilis editori da profilis foto*/
+
+.userPicture {
+  margin-top: 10px;
+}
+
+.coverimage {
+  width: 556px;
+  height: 110px;
+  background: #979ffa;
+}
+
+.profile-image-btn-edit-profile {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.edit-profile {
+  translate: 17rem;
+  margin-top: 4px;
+  width: 100px;
+  height: 30px;
+  border: solid 1px gray;
+  background: #fff;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 56px;
+  color: beige;
+  background: #5fbff9;
+  translate: 30px -50px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: solid 4px cornsilk;
+}
+
+/*momxmareblis informacia UserName Login damatebis dro da ramdeni foloveri yavs*/
+
+.users-info {
+  position: relative;
+  translate: 30px -30px;
+}
+
+.user-info-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.userLogin {
+  font-weight: 200;
+  padding-bottom: 20px;
+}
+.dataJoined {
+  font-weight: 200;
+  padding-bottom: 15px;
+}
+
+.follow-button button {
+  margin-right: 30px;
+  border-style: none;
+  background: #fff;
+  cursor: pointer;
+}
+
+/*navigacia
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation button {
+  border-style: none;
+  background-color: #fff;
+  font-size: 16px;
+  color: darkgray;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.line {
+  border: solid 1px;
+  margin-top: 10px;
+  color: darkgray;
+  width: 100%;
+}
+
+.content {
+  position: relative;
+  left: 25%;
+}
+*/
